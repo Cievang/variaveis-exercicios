@@ -18,9 +18,9 @@ let escolaridade = (prompt('Escolaridade'))
 let perguntaEscolaridade = 'Escolaridade:'
 console.log(perguntaEscolaridade,escolaridade, typeof cpf)
 
-const CNH = (prompt('Possui CNH, se sim, informe o número, caso não, informe "Não possuo'))
+const CNH = Boolean (prompt('Possui CNH?:')) 
 
-let perguntaCNH = 'Digite o número de CNH:'
+let perguntaCNH = 'Possui CNH:'
 console.log(perguntaCNH, CNH, typeof CNH)
 
 let FilhosQuantidade = Number (prompt('Quantos filhos possui?'))
